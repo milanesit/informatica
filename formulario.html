@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario">
+    <h1>Formulario de ingreso</h1>
+    <div>
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+    </div>
+    <div>
+        <label for="edad">¿Cuántos años tienes?</label>
+        <input type="number" name="edad" id="edad">
+    </div>
+    <div>
+        <label>Pasatiempo</label><br>
+        <input type="radio" id="Deportes" name="Pasatiempo" value="Deportes">
+        <label for="Deporte">Deportes</label><br>
+        <input type="radio" name="Pasatiempo" id="Música" value="Música">
+        <label for="Música">Música</label>
+    </div>
+    <div>
+        <button type= "button"
+            onclick= "saludar()">Enviar</button>
+    </div>
+</form>
+</body>
+</html>
